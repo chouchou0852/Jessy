@@ -1,73 +1,73 @@
 {
-	fundo:#006666;
-	estouro x:escondido
+	background:#006666;
+	overflow-x:hidden
 }
 *{
-	margem:0;
-	preenchimento:0;
-	dimensionamento de caixas:border-box
+	margin:0;
+	padding:0;
+	box-sizing:border-box
 }
-:raiz{
-	-fonte-1:Oswald,sans-serif;
-	--fonte-2:Arimo,sans-serif
+:root{
+	--font-1:Oswald,sans-serif;
+	--font-2:Arimo,sans-serif
 }
-:antes,:depois{
-	conteúdo:'';
-	posição:absoluto
+:before,:after{
+	content:'';
+	position:absolute
 }
-um{
-	exibição:bloco de linha;
-	text-decoração:nenhum
+a{
+	display:inline-block;
+	text-decoration:none
 }
-palmo{
-	exibição:bloco de linha
+span{
+	display:inline-block
 }
-#Jd-Main,. jd-app{
-	posição:relativo;
-	largura:100%;
-	altura:auto;
-	tamanho da fonte:16px;
+#jd-main,.jd-app{
+	position:relative;
+	width:100%;
+	height:auto;
+	font-size:16px;
 	font-family:var(--font-1);
-	cor:#FFF;
-	estouro x:escondido
+	color:#ffffff;
+	overflow-x:hidden
 }
-. jd-app{
-	border-top:sólido 30px #252525
+.jd-app{
+	border-top:solid 30px #252525
 }
-. jd-container{
-	largura:940px;
-	altura:auto;
-	margem:0 auto;
-	posição:relativo
+.jd-container{
+	width:940px;
+	height:auto;
+	margin:0 auto;
+	position:relative
 }
-. jd-cabeçalho{
-	altura:270px;
-	posição:relativo
+.jd-header{
+	height:270px;
+	position:relative
 }
-. jd-banner{
-	posição:absoluto;
-	largura:100%;
-	altura:270px;
-	estouro:oculto;
+.jd-banner{
+	position:absolute;
+	width:100%;
+	height:270px;
+	overflow:hidden;
 	display:flex;
-	itens de alinhamento:centro;
-	justificar-content:centro
+	align-items:center;
+	justify-content:center
 }
-. jd-banner img{
-	largura:100%
+.jd-banner img{
+	width:100%
 }
-. jd-btn{
-	posição:absoluto;
-	largura:120px;
-	altura:32px;
-	direito:30px;
-	topo:30px;
-	fundo:rgba(255.255.255,.3);
-	raio-fronteira:2px;
+.jd-btn{
+	position:absolute;
+	width:120px;
+	height:32px;
+	right:30px;
+	top:30px;
+	background:rgba(255,255,255,.3);
+	border-radius:2px;
 	display:flex;
-	flex-direção:coluna;
+	flex-direction:column;
 	z-index:100;
-	estouro:escondido
+	overflow:hidden
 }
 .jd-btn a{
 	width:120px;
@@ -160,7 +160,7 @@ palmo{
 .jd-box{
 	width:110px;
 	height:130px;
-	background: #dceef6;
+	background: #f104df52;
 	box-shadow:0 0 2px 1px rgba(0,0,0,.1);
 	padding:14px;
 	margin-bottom:20px;
@@ -169,13 +169,13 @@ palmo{
 .jd-box img{
 	width:82px;
 	height:82px;
-	border:solid 1px #212121;
+	border:solid 1px #ff0000;
 	margin:0
 }
 .jd-box span{
 	width:82px;
 	height:19px;
-	background:#212121;
+	background:#c12e2e;
 	text-align:center;
 	line-height:19px;
 	text-transform:uppercase;
@@ -187,7 +187,7 @@ palmo{
 .jd-footer{
 	width:100%;
 	height:30px;
-	background:#212121;
+	background:#c12e2e;
 	line-height:40px;
 	height:40px;
 	text-align:center;
@@ -212,7 +212,7 @@ palmo{
 	text-align:center;
 	font-size:.75rem;
 	color:#8E119B;
-	background:#212121
+	background:#c12e2e
 }
 .jd-videoBox{
 	width:265px;
@@ -225,18 +225,4 @@ palmo{
 #-jd_1:target .jd-video{
 	transform:translateX(0);
 }
-Rodapé
-© 2022 GitHub, Inc.
-Navegação de rodapé
-Termos
-Privacidade
-Segurança
-Estado
-Docs
-Entrar em contato com o GitHub
-Precificação
-API
-Formação
-Blogue
-Sobre
-xatspace/style.css at main · iQuim/xatspace
+
